@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+### **Spotify Clone Static**
+![ScreenSpotify](https://user-images.githubusercontent.com/82125128/119911341-74f2dd00-bf59-11eb-96a1-22fdd252b54a.JPG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 

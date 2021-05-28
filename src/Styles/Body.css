@@ -1,0 +1,95 @@
+.body {
+    width: 100%;
+    height: 53em;
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgb(41, 65, 171);
+    background-size: 175%;
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-position: 46% 4%;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+}
+@media  screen and (max-width: 1200px) {
+    .body {
+        background-image: url("https://www-growth.scdn.co/static/home/bursts-tablet.svg");
+        background-size: 150%;
+        background-position: right 40% center;
+        justify-content: center;
+        height: 41em;
+        margin-top: 54px;
+    }
+    .body_main {
+        margin-left: 0 !important;
+        line-height: 1em;
+        text-indent: 0em;
+        text-align: center;
+        font-size: 90px !important;
+    }
+    .body_text {
+        width: 23em;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media  screen and (max-width: 965px) {
+    .body_main {
+        width: auto !important;
+    }
+}
+@media  screen and (max-width: 770px) {
+    .body_main {
+        width: auto !important;
+        margin-left: 0px !important;
+    }
+}
+.body_content {
+    margin: 0 auto;
+}
+.body_main {
+    font-family: unset;
+    font-weight: 700;
+    font-size: 150px;
+    width: 835px;
+    letter-spacing: -0.05em !important;
+    color: #1ed760;
+    text-indent: -1em;
+    padding-bottom: 40px;
+    line-height: 166px;
+    margin-left: 1.2em;
+}
+@media screen and (max-width: 1200px) {
+    .body_main {
+        font-size: 96px;
+        justify-content: center;
+        display: flex;
+        line-height: 1em;
+        text-indent: 0em;
+    }
+}
+.body_text {
+    color: #1ed760;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn_download {
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    background-color: #1ed760;
+    color: rgb(41, 65, 171);
+    padding: 14px 32px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    display: flex;
+    margin: 0 auto;
+}
+.btn_download:hover {
+    transform: scale(1.1);
+}
+

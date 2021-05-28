@@ -1,0 +1,155 @@
+
+.navbar {
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding: 10px 0 10px 0;
+    position: absolute;
+    background-color: #000;
+}
+@media screen and (max-width: 991px) {
+    .navbar {
+        height: 54px;
+        padding: 0 0 0 0;
+        align-items: center;
+        display: flex;
+    }
+    .navbar_logo {
+        width: 89px !important;
+        padding-left: 0px !important;
+    }
+    .BurgerMenu {
+        color: #FFF;
+        display: flex !important;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        padding-right: 125px;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #000;
+        width: 354px;
+        z-index: 15;
+        list-style: none;
+        padding: 38px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        color: #FFF;
+    }
+    .background_sidebar {
+        background: rgba(0, 0, 0, .7);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .tiret_sidebar {
+        background-color: #FFF;
+        width: 20px;
+        height: 2px;
+        margin: 30px 0 30px 0;
+    }
+    .CloseIcon {
+        cursor: pointer;
+        margin: 0 9em;
+        margin-bottom: 10px;
+    }
+    .CloseIcon:hover {
+        color: #1ed760;
+    }
+    .logo_sidebar {
+        width: 89px;
+        display: flex !important;
+        cursor: pointer;
+        margin-top: auto;
+    }
+    li {
+        display: flex !important;
+        padding: 5px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    li:hover {
+        color: #1ed760;
+    }
+    .ins_con {
+        font-size: 25px;
+        color: #919496;
+    }
+    .navbar_menu {
+        display: none;
+    }
+    .navbar_content {
+        height: 30px !important;
+        width: 100% !important;
+        padding: 0 125px 0 125px !important;
+    }
+    .span_menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 770px) {
+    .navbar_content {
+        width: 100% !important;
+        padding: 0 15px 0 15px !important;
+    }
+    .BurgerMenu {
+        display: flex !important;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        padding-right: 15px;
+    }
+}
+.logo_sidebar {
+    display: none;
+}
+li {
+    display: none;
+}
+.navbar_content {
+    display: flex;
+    width: 87%;
+    margin: 0 auto;
+    height: 60px;
+    align-items: center;
+}
+.navbar_logo {
+    cursor: pointer;
+    padding-left: 20px;
+    width: 132px;
+}
+.BurgerMenu {
+    display: none;
+}
+.navbar_text {
+    display: flex;
+    margin-left: auto;
+}
+.span_menu {
+    margin: auto 17px;
+}
+.navbar_menu{
+    color: #FFF;
+    cursor: pointer;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    padding: 0 16px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.navbar_menu:hover {
+    color: #1ed760;
+}
+span {
+    color: #FFF;
+}
